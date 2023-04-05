@@ -10,8 +10,12 @@ namespace EmployeeWagePrograms
     {
         static void Main(string[] args)
         {
-            CheckAttendence checkattendence = new CheckAttendence();
-            checkattendence.Attendence();
+            //CheckAttendence checkattendence = new CheckAttendence();    \\UC1
+            //checkattendence.Attendence();
+            //Console.ReadLine();
+
+            DailyEmpWage dailyempwage = new DailyEmpWage();
+            DailyEmpWage.EmpWage();
             Console.ReadLine();
 
         }
