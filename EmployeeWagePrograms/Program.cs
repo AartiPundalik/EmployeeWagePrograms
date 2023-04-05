@@ -26,9 +26,13 @@ namespace EmployeeWagePrograms
             //SwitchCase.Switchcase();
             //Console.ReadLine();
 
-            MonthlyWage monthlywage = new MonthlyWage();
+            MonthlyWage monthlywage = new MonthlyWage();                   
             MonthlyWage.EmployeeMonthlyWage();
             Console.ReadLine(); 
+
+            TotalDaysHours totaldayshours = new TotalDaysHours();
+            TotalDaysHours.DaysHoursOfMonth();
+            Console.ReadLine();
 
 
         }
