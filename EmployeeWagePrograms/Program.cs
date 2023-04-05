@@ -22,9 +22,13 @@ namespace EmployeeWagePrograms
             //PartTimeEmpWage.PartTime();
             //Console.ReadLine();
 
-            SwitchCase switchCase = new SwitchCase();
-            SwitchCase.Switchcase();
-            Console.ReadLine();
+            //SwitchCase switchCase = new SwitchCase();                     \\UC4
+            //SwitchCase.Switchcase();
+            //Console.ReadLine();
+
+            MonthlyWage monthlywage = new MonthlyWage();
+            MonthlyWage.EmployeeMonthlyWage();
+            Console.ReadLine(); 
 
 
         }
