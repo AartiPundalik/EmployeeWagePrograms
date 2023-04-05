@@ -14,9 +14,14 @@ namespace EmployeeWagePrograms
             //checkattendence.Attendence();
             //Console.ReadLine();
 
-            DailyEmpWage dailyempwage = new DailyEmpWage();
-            DailyEmpWage.EmpWage();
+            //DailyEmpWage dailyempwage = new DailyEmpWage();              \\UC2
+            //DailyEmpWage.EmpWage();
+            //Console.ReadLine();
+
+            PartTimeEmpWage partTimeempWage = new PartTimeEmpWage();
+            PartTimeEmpWage.PartTime();
             Console.ReadLine();
+
 
         }
     }
