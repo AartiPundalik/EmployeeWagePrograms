@@ -30,10 +30,13 @@ namespace EmployeeWagePrograms
             //MonthlyWage.EmployeeMonthlyWage();
             //Console.ReadLine(); 
 
-            TotalDaysHours totaldayshours = new TotalDaysHours();
-            TotalDaysHours.DaysHoursOfMonth();
-            Console.ReadLine();
+            //TotalDaysHours totaldayshours = new TotalDaysHours();         \\UC6
+            //TotalDaysHours.DaysHoursOfMonth();
+            //Console.ReadLine();
 
+            Refactor EmployeeWage = new Refactor();
+            Refactor.EmployeeWage();
+            Console.ReadLine();
 
         }
     }
